@@ -1,4 +1,4 @@
-* {
+    * {
     box-sizing: border-box;
     margin: 0;
    
@@ -687,13 +687,11 @@ i{
 }
 @media(max-width:1300px){
     .spanmj{
- 
         margin-right: 10px;
         background-color: transparent;
      }
      .div2{
         position: relative;
-    
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -710,7 +708,7 @@ i{
         position: absolute;
         padding: 10px 15px;
         border-radius: 20px;
-    background-color: #EFD372;
+        background-color: #EFD372;
         display: none;
         left: 0;
         top: 100%;
@@ -744,16 +742,15 @@ i{
     .div3{
         width: 100%;
     }
-   
     .spanmj{
        width: 30%;
        margin-bottom: 16px;
-      
     }
     .sariq{
-     
-       display: contents;
-    
+position: static;
+transform: translateY(0);
+border-radius: 25px;
+width: 100%;
     }
 
     .sana{
@@ -831,6 +828,22 @@ i{
 .dsaf{
     margin:30px  auto;
 }
+.p-o{
+    font-size: 50px;
+}
+.p-p{
+    width: 60px;
+    height: 60px;
+}
+.pic1{
+    font-size: 20px;
+}
+.bars{
+    font-size: 33px;
+}
+.div1{
+    width: 50%;
+}
 
 }
 @media(max-width:890px){
@@ -838,6 +851,10 @@ i{
         width: 100%;
         text-align: center;
 
+    }
+    .past{
+        text-align: center;
+        justify-content: center;
     }
     .ikkil{
         text-align: left;
@@ -885,12 +902,17 @@ i{
 .h1{
     font-size: 40px;
 }
+.label,.label1{
+    width: auto;
+}
 .tort{
     padding: 0;
     text-align: center;
 }
 .div7{
     margin: 10px auto;
+    width: auto;
+    text-align: center;
 }
 .pic3{
     display: none;
@@ -899,7 +921,8 @@ i{
    max-width: 100%;
 }
 .div4{
-    max-width: 250px;
+    width: auto;
+    text-align: center;
  
 }
 .ikki{
@@ -909,10 +932,30 @@ i{
 .tr{
     padding: 10px 20px;
 }
+.piic{
+    height:300px;
 }
-@media(max-width:600px){
+}
+@media(max-width:700px){
+    .ust{
+        padding: 30px 20px 40px;
+    }
+}
+@media(max-width:635px){
     .pic2{
         display: none;
+    }
+    .div1{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .div2{
+        order: 1;
+        width: 30%;
+    }
+    .div3{
+        width: 66%;
     }
     .chap{
         width: 100%;
@@ -925,8 +968,8 @@ i{
         margin-top: 20px;
     }
     .plakat{
-        width: 100%;
-     
+        width: 48%;
+        padding: 10px 8px 15px;
     }
     .div7{
         width: 90%;
@@ -951,18 +994,19 @@ i{
   }
   .un{
     padding: 0;
-
   }
   .tre{
     border-radius: 10px;
+    
+  }
+  .tr{
+    text-align: center;
   }
   .inp8{
     border-radius: 10px;
   }
- 
   .unbir{
     margin: 20px 10px;
-
   }
   .cap{
     text-align: center;
@@ -984,6 +1028,112 @@ i{
   .inp1, .inp2{
     max-width: 100px;
   }
- 
- 
+}
+@media(max-width:550px){
+    
+}
+@media(max-width:550px){
+    .div3{
+        width: 100%;
+    }
+    .div2{
+        width: 30%;
+    }
+    .lkjjhg{
+        padding: 10px 8px;
+    }
+    .div1{
+        order: 1;
+        width: 70%;
+    }
+    .besh{
+        padding: 15px 10px;
+    }
+    .h66{
+        margin-bottom: 10px;
+    }
+    .sariq{
+        box-shadow: 2px 2px 10px black;
+    }
+    .uchil, .biri{
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 1;
+    }
+   .h28, .g5, .p987{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 1;
+   }
+   .olti{
+    padding: 15px 10px;
+   }
+   .dars{
+    padding: 20px 10px 30px;
+   }
+.asd{
+    row-gap: 15px;
+    padding: 14px 10px;
+}
+}
+@media(max-width:480px){
+    .p-p{
+        width: 40px;
+        height: 40px;
+    }
+    .pic9{
+        box-shadow: 1px 1px 8px silver;
+        margin-bottom: 10px;
+    }
+    .bars{
+        font-size: 22px;
+    }
+    .p-o{
+        font-size: 25px;
+    }
+    .div1{
+        text-align: left;
+       
+    }
+    .sariq{
+        padding: 20px 14px 15px;
+    }
+    .pic9{
+        border-radius: 20px;
+    }
+    .tr{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .sakkiz{
+        padding: 15px 10px;
+    }
+   .inp1, .inp2{
+    font-size: 25px;
+    width: 70%;
+   }
+   .label, .label1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .iconka{
+    order: 1;
+   }
+   
+   .icon, .iconka{
+    font-size: 26px;
+   }
+}
+@media(max-width:370px){
+    .plakat{
+        width: 100%;
+    }
+    .ong{
+        width: 100%;
+    }
+    .div3{
+        width: 100%;
+    }
 }
